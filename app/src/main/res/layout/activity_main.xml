@@ -33,7 +33,7 @@
             android:id="@+id/image_hamburger"
             android:layout_width="250dp"
             android:layout_height="250dp"
-            android:src="@drawable/logo"
+            android:src="@drawable/logohamburger"
             android:layout_marginTop="40dp"
             app:layout_constraintTop_toBottomOf="@id/text_title"
             app:layout_constraintStart_toStartOf="parent"
