@@ -47,12 +47,24 @@
             app:layout_constraintTop_toBottomOf="@id/text_hello"
             app:layout_constraintStart_toStartOf="parent" />
 
+        <!-- Image View khi không dùng thư viện bo tròn
         <de.hdodenhof.circleimageview.CircleImageView
             xmlns:app="http://schemas.android.com/apk/res-auto"
             android:id="@+id/image_avatar"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:src="@drawable/pro_trung"
+            android:layout_marginEnd="24dp"
+            app:layout_constraintTop_toTopOf="@id/text_hello"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="@id/text_name" /> -->
+
+        <ImageView
+            android:id="@+id/image_avatar"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/pro_trung"
+            android:scaleType="centerCrop"
             android:layout_marginEnd="24dp"
             app:layout_constraintTop_toTopOf="@id/text_hello"
             app:layout_constraintEnd_toEndOf="parent"
